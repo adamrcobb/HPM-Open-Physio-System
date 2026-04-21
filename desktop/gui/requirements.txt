@@ -1,0 +1,47 @@
+# HPM Open Physio System — Full pinned requirements
+# Generated from validated working environment, April 2026
+# Install with: pip install -r requirements.txt
+#
+# Python 3.11+ recommended (tested on 3.11, 3.12)
+# All packages are cross-platform (Windows, macOS, Linux)
+
+# ── Core data science ──────────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+
+# ── Signal processing & physiology ────────────────────────────────────────
+neurokit2>=0.2.7          # EDA/ECG deconvolution; pin to >=0.2.7 (API stable)
+
+# ── Statistics & modelling ────────────────────────────────────────────────
+statsmodels==0.14.4       # GLM for EDA event analysis
+scikit-learn==1.6.1       # Used by neurokit2 internals
+joblib==1.5.0             # Parallel processing (neurokit2 / sklearn dep)
+
+# ── Visualisation ─────────────────────────────────────────────────────────
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# ── Video / webcam (rPPG) ─────────────────────────────────────────────────
+opencv-python==4.11.0.86  # webcam capture and rPPG extraction
+
+# ── Audio/signal utilities ────────────────────────────────────────────────
+# (used by neurokit2 and scipy signal processing internals)
+pillow==11.3.0
+
+# ── Hardware / serial ─────────────────────────────────────────────────────
+pyserial>=3.5             # Arduino serial communication (no breaking changes expected)
+
+# ── Pavlovia bridge (WebSocket server) ────────────────────────────────────
+websockets>=12.0          # WebSocket server — v12+ API required (breaking change at v12)
+
+# ── Desktop GUI ───────────────────────────────────────────────────────────
+# tkinter ships with Python on Windows and macOS.
+# Linux: sudo apt install python3-tk
+
+# ── Optional: packaging / distribution ───────────────────────────────────
+# Uncomment when building standalone .app / .exe:
+# pyinstaller>=6.0
+
+# ── Development / testing (optional) ─────────────────────────────────────
+# pytest>=8.0

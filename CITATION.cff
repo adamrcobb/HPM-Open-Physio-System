@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use the HPM Open Physio System in your research, please cite this repository."
+title: "HPM Open Physio System"
+abstract: "An open-source, low-cost psychophysiology system for ECG and GSR recording in browser-based experiments, with Pavlovia/PsychoPy integration and automated signal analysis."
+authors:
+  - given-names: "Adam R."
+    family-names: "Cobb"
+    affiliation: "The University of Texas at Austin; San Francisco VA Healthcare System"
+    orcid: "https://orcid.org/0000-0002-0733-3292"
+version: "1.0.0-beta"
+date-released: "2026-04-21"
+license: MIT
+repository-code: "https://github.com/adamrcobb/Open-Psychophys"
+keywords:
+  - psychophysiology
+  - ECG
+  - GSR
+  - EDA
+  - open-source hardware
+  - Arduino
+  - Pavlovia
+  - rPPG
