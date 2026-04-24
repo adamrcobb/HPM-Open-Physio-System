@@ -17,8 +17,8 @@ HPM (open Hardware Psychophysiology Monitor) is an open-source, low-cost psychop
 - ECG front-end (e.g., AD8232-based module)
 - ADS1115 ADC for high-resolution GSR acquisition
 - Battery power pack and USB data blocker (recommended)
-  
-[Hardware.pdf](https://github.com/user-attachments/files/27053113/Hardware.pdf)
+
+<img width="4271" height="2493" alt="HPM-Open-Physio-System" src="https://github.com/user-attachments/assets/d5941abe-bb04-47f8-90da-c55d7ceb6983" />
 
 See `hardware/` for wiring diagrams, bill of materials, and enclosure notes.
 
