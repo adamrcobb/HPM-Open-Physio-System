@@ -4,11 +4,13 @@ HPM (open Hardware Psychophysiology Monitor) is an open-source, low-cost psychop
 
 ## Features
 
-- Low-cost ECG and GSR recording with Arduino-based hardware
+- Low-cost ECG, EDA, and rPPG recording with Arduino-based hardware
+- Machine learning algorithm using ECG as groundtruth for enhanced rPPG accuracy
 - Browser-based task integration via a Pavlovia bridge
 - Desktop GUI for RA and participant-facing workflows
-- Signal quality checks for ECG and GSR before each session
-- CSV recording compatible with the HPM analysis pipeline
+- Signal quality checks for ECG and EDA before each session
+- CSV recording compatible with automated analysis pipeline
+
 
 ## Supported hardware
 
